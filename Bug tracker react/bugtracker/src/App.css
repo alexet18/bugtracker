@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+  
+}
+
+
+nav {
+  display:flex;
+  justify-content: center;
+  justify-items:space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(0, 145, 241);
+}
+
+
+.ReactModal__Content{
+  
+display: flex;
+justify-content: center;
+justify-self: center;
+
+width: 300px;
+height: 100px;
+position: absolute;
+left: 50%;
+top: 50%; 
+margin-left: 600px;
+margin-top: 300px;
+
+}
+
+.member-modal-div{
+  display:'flex';
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin: 20px;
+}
+
+
+body{
+  background-color:rgb(193, 229, 251);
+}
+
+
+
+#projectsList{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+ 
+}
+
+#projectsList li{
+  
+  display:grid;
+  justify-items: center;
+  align-items:center;
+ 
+  padding:3px;
+}
+
+
+table,  td{
+  width: 25rem;
+  border: 1px solid black;
+  background-color: white;
+  
+}
+th{
+  width: 25rem;
+  border: none;
+}
+
+tr{
+  justify-items: center;
+  
+}
+
+
+#bugs-table{
+  width: fill;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items:center;
+  border: none;
+
+}
+
+
+.projectnames{
+  font: bold;
+  font-size: 20px;
+  margin-top: 35px;
+  color: rgb(119, 28, 28);
+}
+
+
+.login-vertical{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.login-div{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  
+ 
+}
+
+.login-div label{
+ margin: 4px;
+}
+
+
+.password-div{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  
+ 
+}
+
+.password-div label{
+  margin:4px
+}
+.buttons{
+  margin: 3px;
+}
+
+.buttons input{
+  margin: 3px;
+}
+
+
+#add-proj-btn{
+  background-color: transparent;
+  font-size: 30px;
+  margin-top: 10px;
+  
+}
+
+.add-proj{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.add-proj-name{
+  margin-bottom: 10px;
+}
+
+.add-proj button{
+  margin: 2px;
+}
